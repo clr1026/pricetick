@@ -1,6 +1,6 @@
 using System;
 /*
-		CB		ETF		X
+		CB		ETF		TX
 price_range     [150, 1000]	[50]		[50, 500]
 tick_size	[0.05, 1, 5]	[0.01, 0.05]	[0.1, 0.5, 1]
 */
