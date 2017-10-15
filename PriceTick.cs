@@ -22,13 +22,13 @@ namespace PriceTick
                 }
                 return i;
             }
-
+            // return tick size of a given price 
             public decimal getTickSize(decimal p)
             {
                 int idx = inPriceRange(p);
                 return TickSize[idx];
             }
-
+            //check if the given price is valid 
             public bool isValidPrice(decimal p)
             {
                 int idx = inPriceRange(p);
